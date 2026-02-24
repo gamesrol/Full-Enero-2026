@@ -1,0 +1,22 @@
+{
+  "name": "dia13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cross-env NODE_ENV=development node index.js",
+    "prod": "cross-env NODE_ENV=production node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.2.4",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0"
+  }
+}
